@@ -19,6 +19,7 @@ public class PersonController {
 
     @PostMapping("person")
     public void save(@RequestBody Person person) {
+        System.out.println("本地分支");
         System.out.println("远程分支");
         personRepository.save(person);
     }
