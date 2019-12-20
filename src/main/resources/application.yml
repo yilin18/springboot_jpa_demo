@@ -1,0 +1,14 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /jpa
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///test_springboot
+    password: 123
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
