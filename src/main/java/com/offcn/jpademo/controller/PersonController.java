@@ -21,6 +21,7 @@ public class PersonController {
     public void save(@RequestBody Person person) {
         System.out.println("本地分支");
         System.out.println("远程分支");
+        System.out.println("远程改变");
         personRepository.save(person);
     }
 
